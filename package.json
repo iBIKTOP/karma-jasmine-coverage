@@ -1,0 +1,29 @@
+{
+  "name": "karma-jasmine-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.8.0",
+    "jasmine-core": "^3.8.0",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1"
+  },
+  "dependencies": {
+    "@jsdevtools/coverage-istanbul-loader": "^3.0.5",
+    "karma-jasmine-html-reporter": "^1.7.0",
+    "karma-jasmine-matchers": "^4.0.2",
+    "karma-webpack": "^5.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-karma-jasmine": "^4.0.0"
+  }
+}
